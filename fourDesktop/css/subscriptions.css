@@ -1,0 +1,26 @@
+.subscriptions{
+    background-color: #fff;
+    width: 80%;
+    height: 500px;
+    overflow: auto;
+}
+.subs_container{
+    display: flex;
+    flex-direction: column;
+    overflow:auto;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    display: flex;
+    align-items: center;
+    padding-top: 9vh;
+}
+header{
+    position: fixed;
+    height: 100%;
+}
+.title{
+    padding-left: 15vw;
+}
